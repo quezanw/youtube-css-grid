@@ -1,0 +1,38 @@
+.nav-bar {
+  padding: .75rem;
+  box-shadow: 1px 1px 3px 1px rgb(230, 230, 230);
+  grid-column: 1 / auto-fill;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  width: 45px;
+}
+
+.logo-header {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: -3px;
+}
+
+.search-bar {
+  width: 25%;
+}
+
+.icon-container {
+  width: 12%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
