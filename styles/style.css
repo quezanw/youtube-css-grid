@@ -1,0 +1,17 @@
+@import "./base/reset.css";
+@import "./components/navigation.css";
+@import "./components/video-detail.css";
+@import "./components/video-list.css";
+
+body {
+  width: 100vw;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  /* grid-template-rows: repeat(10, 75px); */
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 20px 30px;
+}
